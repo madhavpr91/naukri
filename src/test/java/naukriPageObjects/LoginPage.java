@@ -75,7 +75,7 @@ public class LoginPage {
 
 		WebElement loginBtn = driver.findElement(By.xpath("//button[@class='btn-primary loginButton']"));
 		if (loginBtn.isEnabled()) {
-//			loginBtn.click();
+			loginBtn.click();
 		} else {
 			System.out.println("login button element is not enabled");
 		}
